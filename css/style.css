@@ -1,0 +1,448 @@
+/*=============================================
+Navbar
+==============================================*/
+
+.coloumn-user {
+  float: right;
+  padding: 15px 0;
+}
+
+.user-menu li {
+  display: inline-block;
+}
+
+.user-menu li a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+}
+
+
+.navbar-header {
+  float: none !important;
+  padding-top: 50px;
+}
+
+.navbar-brand {
+  float: left !important;
+  padding: 10px 15px !important;
+  color: white !important;
+}
+
+.navbar-header .left-inner-addon{
+  position: relative;
+}
+
+.navbar-header .left-inner-addon input {
+  border: 0;
+  height: 35px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-left: 35px;
+  border-radius: 3px;
+}
+
+.navbar-header .left-inner-addon i {
+  position: absolute;
+  padding: 10px;
+  pointer-events: none;
+}
+
+.navbar-header button {
+  font-weight: 600;
+  text-transform: none;
+  background: 0;
+  border: 1px solid #fff;
+  border-radius: 2px;
+  width: 33px;
+  height: 33px;
+  color: white;
+}
+
+.navbar-header .col-xs-3 {
+  text-align: center;
+}
+
+.navbar-header .col-xs-3 a {
+  text-decoration: none;
+  color: white;
+}
+
+/*================================================
+navbar-menu
+=================================================*/
+.navbar-menu {
+  border-bottom: 1px solid #d5d8db;
+}
+
+.navbar-menu a {
+  color: grey;
+  text-decoration: none;
+  margin: auto 45px;
+}
+
+.navbar-menu a:hover {
+  background: none !important;
+  border-bottom: 2px solid #3498DB;
+}
+
+/*================================================
+Section .banner
+=================================================*/
+
+/*================================================
+Section .banner .col-xs-4
+=================================================*/
+.banner {
+  margin-top: 50px;
+}
+
+.banner .info {
+  font-size: 24px;
+  line-height: 26px;
+  font-weight: 700;
+  color: #000;
+}
+
+.banner .menu-samping figure {
+  list-style: none;
+  padding: 11px 0 12px 12px;
+  border-bottom: 1px solid #e6e7e8;
+}
+
+.banner .menu-samping .icon-gambar, .banner .menu-samping p {
+  display: inline-block;
+}
+
+.banner .menu-samping .icon-gambar img {
+  width: 42px;
+  height: 42px;
+}
+
+.banner .menu-samping p {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 22px;
+  padding: 0 0 0 24px;
+  margin: 0;
+  position: relative;
+}
+
+/*================================================
+Section .banner .col-xs-8
+=================================================*/
+.banner .col-xs-8 a.col-xs-12 {
+  color: #75787b !important;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #e6e7e8 !important;
+  background-color: #fff;
+}
+
+.banner .col-xs-8 a.col-xs-12:hover {
+  text-decoration: none;
+}
+
+.banner .col-xs-8 .col-xs-12 figure {
+  margin-bottom: 8px;
+}
+
+.banner .col-xs-8 .col-xs-12 .detail h5 {
+  font-size: 15.5px;
+  font-weight: 600;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+
+.banner .col-xs-8 .col-xs-12 .detail span {
+  display: block;
+  height: 18px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 8px;
+  max-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.banner .col-xs-8 .col-xs-12 .deal {
+  bottom: -45px;
+  position: absolute;
+  right: 10px;
+
+}
+/*================================================
+.banner .col-xs-8 .col-xs-12
+================================================*/
+
+.banner .col-xs-8 a.col-xs-6 {
+  color: #75787b !important;
+}
+
+.banner .col-xs-8 a.col-xs-6:hover {
+  text-decoration: none;
+}
+
+.banner .col-xs-8 .col-xs-6 h5 {
+  font-size: 15.5px;
+  font-weight: 600;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+
+.banner .col-xs-8 .col-xs-6 .detail span {
+  display: block;
+  height: 18px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 8px;
+  max-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.banner .col-xs-8 .col-xs-6 .content {
+  border-bottom: 1px solid #e6e7e8 !important;
+  background-color: #fff;
+}
+
+.banner .left {
+  float: left;
+}
+
+.banner .left .stars {
+  display: inline;
+  padding: 0;
+}
+
+.banner .left .stars .star {
+  display: inline;
+  font-size: x-large;
+  color: gray;
+}
+
+.banner .left .stars .star.on {
+  color: gold !important;
+}
+
+.banner .left .stars .star:before {
+  content: '\2605';
+}
+
+.banner .left .stars .star.half:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -22px;
+  width: 10px;
+  overflow: hidden;
+}
+
+.banner .left .rating-count {
+  display: inline;
+  position: relative;
+  top: -2px;
+}
+
+.banner .right {
+  float: right;
+}
+
+.banner .right .original-price {
+  display: inline;
+  font-size: x-large;
+  text-decoration: line-through;
+  color: #75787b!important;
+}
+
+.banner .right .discount {
+  display: inline;
+  font-size: x-large;
+  color: #3498DB!important;
+}
+
+/*================================================
+.banner .col-xs-8 .col-xs-6
+================================================*/
+
+/*================================================
+section .main-content
+================================================*/
+.main-content a.col-xs-4 {
+  color: #75787b !important;
+}
+
+.main-content a.col-xs-4:hover {
+  text-decoration: none;
+}
+
+.main-content .col-xs-4 h5 {
+  font-size: 15.5px;
+  font-weight: 600;
+  height: 20px;
+  line-height: 20px;
+  margin-top: 8px;
+  margin-bottom: 2px;
+  overflow: hidden;
+}
+
+.main-content .col-xs-4 .detail span {
+  display: block;
+  height: 18px;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 18px;
+  margin-bottom: 8px;
+  max-height: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.main-content .col-xs-4 .content {
+  border-bottom: 1px solid #e6e7e8 !important;
+  background-color: #fff;
+  margin-bottom: 20px;
+}
+
+.main-content .left {
+  float: left;
+}
+
+.main-content .left .stars {
+  display: inline;
+  padding: 0;
+}
+
+.main-content .left .stars .star {
+  display: inline;
+  font-size: x-large;
+  color: gray;
+}
+
+.main-content .left .stars .star.on {
+  color: gold !important;
+}
+
+.main-content .left .stars .star:before {
+  content: '\2605';
+}
+
+.main-content .left .stars .star.half:after {
+  content: '\2605';
+  color: gold;
+  position: absolute;
+  margin-left: -22px;
+  width: 10px;
+  overflow: hidden;
+}
+
+.main-content .left .rating-count {
+  display: inline;
+  position: relative;
+  top: -2px;
+}
+
+.main-content .right {
+  float: right;
+}
+
+.main-content .right .original-price {
+  display: inline;
+  font-size: x-large;
+  text-decoration: line-through;
+  color: #75787b!important;
+}
+
+.main-content .right .discount {
+  display: inline;
+  font-size: x-large;
+  color: #3498DB!important;
+}
+
+/*================================================
+./section ./main-content
+================================================*/
+
+/*================================================
+section .browse-by-city
+================================================*/
+
+section.browse-by-city, section.browse-by-coupons {
+  padding: 10px;
+}
+
+section.browse-by-city .container>p, section.browse-by-coupons .container>p {
+  border-bottom: 1px dotted #75787b;
+}
+
+/*================================================
+footer
+================================================*/
+
+footer {
+  padding: 35px 0;
+  border-top: 1px solid #d5d8db;
+  color: #75787b;
+}
+
+footer h6 {
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 24px;
+  color: #333333;
+}
+
+footer p a {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  color: #75787b;
+}
+
+footer p a:hover {
+  color: #75787b;
+}
+
+footer .col-xs-3:last-child a i{
+  margin: 0 3px 0 0;
+  color: #a5a8ab;
+  border-radius: 50%;
+  border: 2px solid #a5a8ab;
+  font-size: 18px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 28px;
+  height: 28px;
+  line-height: 25px;
+  padding: 3px 0;
+  text-align: center;
+}
+
+footer .col-xs-3:last-child a:hover {
+  text-decoration: none;
+}
+
+footer .col-xs-3:last-child .twitter:hover i {
+  color: #55acee;
+  border: 2px solid #55acee;
+}
+
+footer .col-xs-3:last-child .facebook:hover i {
+  border: 2px solid #4a67a4;
+  color: #4a67a4;
+}
+
+/*================================================
+./footer
+================================================*/
