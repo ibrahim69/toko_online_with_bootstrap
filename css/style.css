@@ -1,3 +1,7 @@
+a:hover {
+  color: #75787b !important;
+}
+
 /*=============================================
 Navbar
 ==============================================*/
@@ -220,26 +224,26 @@ Section .banner .col-xs-8
   float: left;
 }
 
-.banner .left .stars {
+.stars {
   display: inline;
   padding: 0;
 }
 
-.banner .left .stars .star {
+.stars .star {
   display: inline;
   font-size: x-large;
   color: gray;
 }
 
-.banner .left .stars .star.on {
+.stars .star.on {
   color: gold !important;
 }
 
-.banner .left .stars .star:before {
+.stars .star:before {
   content: '\2605';
 }
 
-.banner .left .stars .star.half:after {
+.stars .star.half:after {
   content: '\2605';
   color: gold;
   position: absolute;
@@ -387,6 +391,59 @@ section.browse-by-city .container>p, section.browse-by-coupons .container>p {
 }
 
 /*================================================
+section.detail-barang
+================================================*/
+.detail-barang .deskripsi-barang h4 {
+  border-bottom: 1px solid #75787b;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.detail-barang .deskripsi-barang p {
+  color: #75787b;
+}
+
+/*================================================
+section.detail-barang
+================================================*/
+.breadcrumb {
+  background-color: #fff !important;
+}
+
+.breadcrumb li {
+  font-size: 12px;
+  line-height: 18px;
+  color: #0093ea !important;
+}
+
+.breadcrumb>li+li:before {
+  content:  ">" !important;
+}
+
+.breadcrumb li a:hover {
+  color: #0093ea !important;
+}
+
+.title h1 {
+  font-size: 24px;
+  font-weight: 300;
+  letter-spacing: -1px;
+  line-height: 42px;
+  margin: 0 12px;
+}
+
+.info-title, .review-rating, .rating-text {
+  display: inline;
+}
+
+.info-title span, .info-title a {
+  font-weight: 300;
+  font-size: 19px;
+  line-height: 22px;
+  color: #75787b;
+}
+
+/*================================================
 footer
 ================================================*/
 
@@ -441,11 +498,6 @@ footer .col-xs-3:last-child .twitter:hover i {
 footer .col-xs-3:last-child .facebook:hover i {
   border: 2px solid #4a67a4;
   color: #4a67a4;
-}
-
-
-footer {
-  
 }
 /*================================================
 ./footer
