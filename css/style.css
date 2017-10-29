@@ -393,19 +393,6 @@ section.browse-by-city .container>p, section.browse-by-coupons .container>p {
 /*================================================
 section.detail-barang
 ================================================*/
-.detail-barang .deskripsi-barang h4 {
-  border-bottom: 1px solid #75787b;
-  font-weight: 700;
-  padding: 10px 0;
-}
-
-.detail-barang .deskripsi-barang p {
-  color: #75787b;
-}
-
-/*================================================
-section.detail-barang
-================================================*/
 .breadcrumb {
   background-color: #fff !important;
 }
@@ -423,6 +410,10 @@ section.detail-barang
 .breadcrumb li a:hover {
   color: #0093ea !important;
 }
+
+/*================================================
+./section.detail-barang.breadcrumb
+================================================*/
 
 .title h1 {
   font-size: 24px;
@@ -442,6 +433,131 @@ section.detail-barang
   line-height: 22px;
   color: #75787b;
 }
+
+.detail-barang .review {
+  padding: 6px 0 20px;
+}
+
+.five-stars {
+  margin: 10px auto;
+}
+
+.pp-user-icon {
+  width: 45px;
+  height: 45px;
+  color: #fff;
+  line-height: 45px;
+  text-align: center;
+  display: block;
+  float: left;
+  margin-right: 16px;
+  background-color: #e6e7e8;
+}
+
+.pp-user-icon p {
+  color: #b8b5bb;
+  margin: 0;
+}
+
+.four-coloumn {
+  position: relative;
+  min-height: 1px;
+  padding: 0 12px;
+  float: left;
+}
+
+.four-coloumn .user-text {
+  color: #b8b5bb;
+  display: block;
+  float: left;
+  clear: both;
+  font-size: 12px;
+  margin: 3px 0 8px;
+}
+
+.four-coloumn .review-name {
+  width: 256px;
+  height: 40px;
+  font-size: 14px;
+  text-align: left;
+  color: #75787b;
+}
+
+.four-coloumn .review-count {
+  width: 256px;
+  height: 40px;
+  font-size: 14px;
+  text-align: left;
+  color: #75787b;
+}
+
+.four-coloumn .individual-rating {
+  float: left;
+}
+
+.four-coloumn .review-date {
+  padding-left: 5px;
+  font-size: 16px;
+  color: #75787b;
+  line-height: 33px;
+}
+
+.tip-text {
+  max-height: 5.6em;
+  overflow: hidden;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  float: left;
+  color: #55585b;
+  clear: both;
+}
+
+.see-all-review {
+  clear: both;
+  color: #3498DB!important;
+}
+
+.see-all-review a:hover {
+  text-decoration: none;
+  color: #3498DB!important;
+}
+
+/*================================================
+./section.customer-review
+================================================*/
+
+.what-you-get, .fine-print, .deskripsi-barang {
+  padding-bottom: 30px;
+}
+
+.what-you-get h4, .fine-print h4 {
+  color: #333;
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.what-you-get p, .what-you-get li, .fine-print p {
+  word-wrap: break-word;
+  color: #75787b;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+}
+
+.detail-barang .deskripsi-barang h4 {
+  font-weight: 700;
+}
+
+.detail-barang .deskripsi-barang p {
+  color: #75787b;
+}
+
+/*================================================
+section.detail-barang
+================================================*/
 
 /*================================================
 footer
