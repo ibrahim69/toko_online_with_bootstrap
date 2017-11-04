@@ -231,7 +231,6 @@ Section .banner .col-xs-8
 
 .stars .star {
   display: inline;
-  font-size: x-large;
   color: gray;
 }
 
@@ -247,8 +246,8 @@ Section .banner .col-xs-8
   content: '\2605';
   color: gold;
   position: absolute;
-  margin-left: -22px;
-  width: 10px;
+  margin-left: -13px;
+  width: 7px;
   overflow: hidden;
 }
 
@@ -442,6 +441,11 @@ section.detail-barang
   margin: 10px auto;
 }
 
+.header-info .review-rating .star.half:after {
+  margin-top: 3px;
+}
+
+
 .pp-user-icon {
   width: 45px;
   height: 45px;
@@ -493,6 +497,7 @@ section.detail-barang
 
 .four-coloumn .individual-rating {
   float: left;
+  line-height: 30px;
 }
 
 .four-coloumn .review-date {
@@ -555,6 +560,189 @@ section.detail-barang
   color: #75787b;
 }
 
+/* coloumn sebelah kanan */
+
+.spesial-icon {
+  border-bottom: 1px solid #eee;
+  margin-bottom: 20px;
+  padding-bottom: 12px;
+}
+
+.spesial-icon .col-xs-4 {
+  text-align: center;
+}
+
+.spesial-icon .col-xs-4:first-child ,.spesial-icon .col-xs-4:last-child p {
+  color: #75787b;
+}
+
+.spesial-icon .col-xs-4:nth-child(2) {
+  color: #ff2552;
+}
+
+.option {
+  margin-bottom: 12px;
+}
+
+.option .option-price {
+  margin-bottom: 20px;
+  padding-bottom: 14px;
+  border-bottom: 1px solid #eee;
+}
+
+.option input[type=radio] {
+  position: absolute;
+  right: 323.984px;
+}
+
+.option .option-price label {
+  cursor: pointer;
+  position: relative;
+  font-weight: 400;
+  padding-left: 2.2em;
+  width: 100% !important;
+}
+
+.option .option-price label:before {
+  width: 13px;
+  height: 13px;
+  color: #53a318;
+  border: 1px solid #53a318;
+  border-radius: 50%;
+  left: 1px;
+  top: 46px;
+  position: absolute;
+  background: #53a318;
+}
+
+.option .option-price label:after {
+  width: 21px;
+  height: 21px;
+  color: #53a318;
+  border: 1px solid #53a318;
+  border-radius: 50%;
+  left: -3px;
+  top: 42px;
+  position: absolute;
+}
+
+.option h3 {
+  font-weight: 600;
+  font-size: 14px;
+  color: #333333;
+  line-height: 17px;
+}
+
+.option .col-xs-6 {
+  padding: 18px 0 0;
+}
+
+.option .detail-pesan {
+  font-weight: 400;
+  font-size: 12px;
+  color: #75787b;
+}
+
+.option .discount-pesanan {
+  font-weight: 400;
+  font-size: 12px;
+  color: #ff2552;
+}
+
+.option .harga {
+  text-align: right;
+}
+
+.option .detail-harga {
+  font-weight: 400;
+  font-size: 18px;
+  color: #75787b;
+  text-decoration: line-through;
+}
+
+.option .harga-discount {
+  font-weight: 700;
+  font-size: 15px;
+  color: #ff2552;
+}
+
+.option .perlindungan {
+  margin: 15px 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #eee;
+}
+
+.option .tulisan-perlindungan {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+.option .pilihan-perlindungan {
+  font-size: 14px;
+  color: #333;
+  line-height: 21px;
+  font-weight: 400;
+  position: relative;
+}
+
+.option .btn {
+  width: 100%;
+  color: white;
+  background: #3498db;
+  font-weight: 600;
+}
+
+.option .btn:hover {
+  color: white;
+}
+
+.share-this span {
+  border-top: 1px solid #d5d8db;
+  padding-top: 20px;
+  display: block;
+  color: #75787b;
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.share-this ul {
+  padding:  10px 0 0;
+}
+
+.share-this ul li {
+  display: inline;
+  margin-right: 5px;
+  padding-top: 4px;
+}
+
+.share-this ul li a {
+  padding: 6px 0 6px 1px;
+  border: 1px solid #a5a8ab;
+  border-radius: 50%;
+  -webkit-transition: color .5s ease, border .25s ease, box-shadow .25s ease;
+     -moz-transition: color .5s ease, border .25s ease, box-shadow .25s ease;
+      -ms-transition: color .5s ease, border .25s ease, box-shadow .25s ease;
+       -o-transition: color .5s ease, border .25s ease, box-shadow .25s ease;
+          transition: color .5s ease, border .25s ease, box-shadow .25s ease;
+  color: #a5a8ab;
+}
+
+.share-this ul li a i {
+  font-size: 1.4rem;
+  line-height: 18px;
+  height: 28px;
+  text-align: center;
+  text-decoration: none;
+  width: 28px;
+}
+
+.share-this ul li a:hover {
+  border-color: #333;
+  -webkit-box-shadow: 0 0 1px #333, inset 0 0 1px #333;
+  box-shadow: 0 0 1px #333, inset 0 0 1px #333;
+}
 /*================================================
 section.detail-barang
 ================================================*/
